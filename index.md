@@ -20,7 +20,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
-  HEADER
+ A Software Carpentry Workshop
 
   Edit the values in the block above to be appropriate for your workshop.
   If the value is not 'true', 'false', 'null', or a number, please use
@@ -221,7 +221,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
   If you want to use an Etherpad, go to
 
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
+      http://pad.software-carpentry.org/2018-07-31-frb
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
@@ -274,4 +274,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
+
 
