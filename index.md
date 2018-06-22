@@ -263,17 +263,19 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <hr/>
 
-{% comment %}
-  SETUP
+<h2 id="setup">Setup</h2>
 
-  Delete irrelevant sections from the setup instructions.  Each
-  section is inside a 'div' without any classes to make the beginning
-  and end easier to find.
+<p>
+To participate in a Data Carpentry workshop, you will need working copies of the
+described software. Please make sure to install everything (or at least to download
+the installers) before the start of your workshop. Participants should bring and use
+their own laptops to insure the proper setup of tools for an efficient workflow
+once you leave the workshop.
+<p>
+Please follow these <a href="https://canghel.github.io/2018-05-22-camh/install.html">Setup Instructions</a>.
 
-  This is the other place where people frequently make mistakes, so
-  please preview your site before committing, and make sure to run
-  'tools/check' as well.
-{% endcomment %}
-
-
-
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href = "https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
