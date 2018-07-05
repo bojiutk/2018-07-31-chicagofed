@@ -114,10 +114,13 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <strong>Requirements:</strong> 
+ Participants must register through the Federal Reserve Bank's internal systems
+(Website to register (http://www.cvent.com/**)). Participants from Economic Research need not
+bring computers; participants from other departments need to bring a laptop with a Mac, Linux, or
+Windows operating system and make sure required software applications (listed below) are installed
+prior to the workshop. 
+ They are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
