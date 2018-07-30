@@ -219,6 +219,9 @@ prior to the workshop.
   {% include lc/schedule.html %}
 {% endif %}
 
+
+
+<!--
 {% comment %}
   Collaborative Notes
 
@@ -229,6 +232,7 @@ prior to the workshop.
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
 {% endcomment %}
+-->
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
   We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
